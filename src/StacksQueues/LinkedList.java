@@ -66,6 +66,18 @@ public class LinkedList {
         }
         corrent.next=null;
     }
+    public void peekLast(){
+        if (head==null){
+            System.out.println("List is Empty");
+            return;
+        }
+        Node corrent = head;
+        while (corrent.next.next != null){
+//            System.out.println("Check"+corrent.data);
+            corrent=corrent.next;
+        }
+        System.out.println("Peek Value is "+corrent.next.data);
+    }
     public void search(Object searchData){
         if (head==null){
             System.out.println("cant searchList is Empty ");
