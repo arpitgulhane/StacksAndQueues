@@ -9,6 +9,15 @@ public class Stack {
         list.addLinkedList(40);
 
         list.diaplay();
+//-------------peek , pop last element (delete last ) ------------
+        list.peekLast();
+        list.deleteLast();
+        list.peekLast();
+        list.deleteLast();
+        list.peekLast();
+        list.deleteLast();
+        System.out.println("---- After pop Last value ------");
+        list.diaplay();
 
     }
 }
