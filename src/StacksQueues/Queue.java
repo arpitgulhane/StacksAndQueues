@@ -9,5 +9,10 @@ public class Queue {
         list.addLinkedList(20);
         list.diaplay();
 
+        System.out.println(" After Delete Queue from begining ");
+        list.deleteFirst();
+        list.deleteFirst();
+        list.diaplay();
+
     }
 }
